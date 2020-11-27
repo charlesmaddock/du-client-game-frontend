@@ -1,0 +1,5 @@
+const TICKS_PER_SECONDS = 28;
+const MAP_WIDTH = 500;
+const MAP_HEIGHT = 500;
+
+module.exports = { TICKS_PER_SECONDS, MAP_WIDTH, MAP_HEIGHT };

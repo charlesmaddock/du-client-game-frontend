@@ -1,8 +1,16 @@
-# Welcome to the React/Nodejs template client for the Digital Ungdom client game jam!
+# Welcome to the React frontend/Nodejs template client for Digital Ungdom's DYI-Client Battle Royale!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to create for own client (for joining the game!)
+Clone (Download) this repository and open src/customClient/index.js. 
 
-## Available Scripts
+Inside index.js you can change the username and class of your bot!
 
-### `yarn start`
+Next go to src/customClient/Client.js.
+
+Inside Client.js you can add your own code that allows your bot to react to bullets and others players. Add this code to the onUpdate() function.
+
+When you want to test your bot simply go to your terminal and run `npm run start-custom-client` and then go to http://173.212.232.13:52301
+
+## How to start the frontend (for viewing the battle)
+Go to your terminal and run `npm run start`.
 
